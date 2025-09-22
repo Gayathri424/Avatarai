@@ -184,6 +184,7 @@ git push origin feature/real-time-status
 
 Step 8: SSH keys
 ssh-keygen -t rsa -b 4096 -C "akash@example.com"
+ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_rsa.pub             # add key to GitHub
 
 Step 9: Apply patch
