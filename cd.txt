@@ -1,5 +1,13 @@
 clarity.
 
+command:
+docker run -it --network=None <image>
+
+we can also create our own networks 
+docker network create -d bridge youtube
+command: docker network create -d <network_type> <name>
+
+
 1. Docker Version & Info
 Command	Purpose
 docker --version	Show Docker version.
