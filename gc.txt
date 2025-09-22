@@ -1,6 +1,8 @@
 📌 Git Commands Cheat Sheet
 🔹 Setup & Configuration
 
+docker events --since 1h --filter 'event=destroy'
+
 git config --global user.name "Your Name" → Set username globally
 
 git config --global user.email "your@email.com" → Set email globally
